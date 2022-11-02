@@ -1,0 +1,37 @@
+{
+  "name": "steam-boost",
+  "version": "1.0.0",
+  "description": "Simple Node script to boost hours in your Steam games!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1DevProjects/Steam-Boost.git"
+  },
+  "keywords": [
+    "steam",
+    "node",
+    "app",
+    "hours",
+    "boost",
+    "hour",
+    "bot"
+  ],
+  "author": "m.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1DevProjects/Steam-Boost/issues"
+  },
+  "homepage": "https://github.com/m1DevProjects/Steam-Boost#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dayjs": "^1.11.6",
+    "steam-totp": "^2.1.2",
+    "steam-tradeoffer-manager": "^2.10.5",
+    "steam-user": "^4.25.0",
+    "steamcommunity": "^3.44.3",
+    "steamstore": "^2.2.1"
+  }
+}
